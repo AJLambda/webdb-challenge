@@ -144,8 +144,6 @@ Is there anything that you could not complete on today's Sprint?
 
 Are there any concepts that you find that you don't understand that was taught from the week?
 
-- the querying
-
 Explain the data relationships you learned this week
 
 - 1 to many, many to many

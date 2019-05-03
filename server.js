@@ -30,7 +30,7 @@ server.get("/api/projects/:id", async (req, res) => {
     const project = await Projects.findById(req.params.id);
     const actions = await Projects.findProjectActions(req.params.id);
     if (project) {
-      res.status(200).json(actions);
+      res.status(200).json({ project, actions });
     } else {
       res.status(404).json({ message: "We could not find the project" });
     }

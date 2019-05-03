@@ -33,9 +33,20 @@ This will be akin to the Web API that you built in the last sprint, only this ti
 Demonstrate your understanding of this week's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 1. Explain the difference between `RDBMS` and `SQL`.
+
+A Relational Database Management System is the database software responsible for managing the data. SQL is the Structured Query Language that we use to communicate with the database.
+
 1. Why do tables need a `primary key`?
+
+The primary key serves as the target for the foreign key to reference. It establishes the relationship between two tables in a relational database.
+
 1. What is the name given to a table column that references the primary key on another table.
+
+The foreign key
+
 1. What do we need in order to have a _many to many_ relationship between two tables.
+
+A third table that holds the two foreign keys
 
 ## Project Set Up
 
@@ -120,3 +131,29 @@ When retrieving an `action` by _id_, add a property that lists all the `contexts
 **Remember to run `npm init -y` to generate a _package.json_ before adding your dependencies.**
 
 _Good luck and have fun!_
+
+What do you find difficult about the Sprint?
+
+- the querying
+
+What did you find easy about the Sprint?
+
+- the boilerplating and db creation
+
+Is there anything that you could not complete on today's Sprint?
+
+Are there any concepts that you find that you don't understand that was taught from the week?
+
+- the querying
+
+Explain the data relationships you learned this week
+
+- 1 to many, many to many
+
+Explain how one manages changes to the database across time
+
+- migrations- rollbacks and latest
+
+Provide some examples of constraints that can be set in SQLite
+
+- unique, not null, primary key, foreign key

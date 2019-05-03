@@ -11,9 +11,7 @@ function find() {
 }
 
 function findById(id) {
-  return db("actions")
-    .where({ id })
-    .first();
+  return db("actions").where({ id });
 }
 
 function add(action) {
